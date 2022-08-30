@@ -25,6 +25,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@lenra'
       - run: npm ci
       - run: npm publish
         env:

@@ -4,7 +4,7 @@
 
 # Install 
 ```bash
-    node build.js bin/**/*.jsx
+    node build.js
 ```
 And then
 ```bash

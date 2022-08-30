@@ -1,5 +1,5 @@
 {
-  "name": "@lenra-io/mdx2html",
+  "name": "@lenra/mdx2html",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

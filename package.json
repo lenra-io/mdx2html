@@ -8,7 +8,9 @@
     "mdx2html": "./dist/bin.js"
   },
   "scripts": {
-    "build": "node build.js"
+    "init": "npm --production install",
+    "build": "node build.js",
+    "ci": "npm run init; npm run build"
   },
   "author": "",
   "license": "ISC",

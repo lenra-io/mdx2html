@@ -12,12 +12,10 @@
     "url": "https://github.com/lenra-io/mdx2html.git"
   },
   "scripts": {
-    "init": "npm --production install",
-    "build": "node build.js",
-    "ci": "npm run init; npm run build"
+    "build": "node build.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lenra",
+  "license": "MIT",
   "dependencies": {
     "@mdx-js/esbuild": "^2.1.2",
     "@mdx-js/react": "^2.1.2",
@@ -25,5 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.6"
   }
 }

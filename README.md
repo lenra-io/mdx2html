@@ -19,5 +19,5 @@ And then
 
 example 
 ```bash
-    mdx2html build example/pages/*
+    mdx2html build example/pages
 ```
